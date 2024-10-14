@@ -1,14 +1,14 @@
 import localFont from "next/font/local";
-import "./globals.css";
+import "./css/globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
+const geistPressStart = localFont({
+  src: "./fonts/PressStart2P-Regular.ttf",
+  variable: "--font-geist-PressStart",
   weight: "100 900",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+const geistPixelifySans = localFont({
+  src: "./fonts/PixelifySans-VariableFont_wght.ttf",
+  variable: "--font-geist-PixelifySnas",
   weight: "100 900",
 });
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistPressStart.variable} ${geistPixelifySans.variable} antialiased`}
       >
         {children}
       </body>
