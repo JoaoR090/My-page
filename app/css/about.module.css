@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/PixelifySans-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.div {
+    display: inline-block;
+    padding: 1rem 4rem;
+    background-color: #201DB0;
+    align-items: center;
+}
+
+.about {
+    text-align: center;
+    font-family: 'MyFont',Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 1rem 0 2rem 0;
+}
+
+.aboutt{
+    text-align: justify;
+    font-family: 'MyFont',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}

@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/PressStart2P-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -15,7 +22,7 @@
     align-items: center;
     color: #ffffff;
     font-size: 20px;
-    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+    font-family: 'MyFont', Arial, Helvetica, sans-serif;
     font-weight: 500;
     text-decoration: none;
     margin-right: 30px;
@@ -35,6 +42,7 @@
     background-color: #1081FF;
     padding: 18px 20px;
     box-shadow: 5px 5px 0 #000;
+    font-family: 'MyFont', Arial, Helvetica, sans-serif;
     margin-right: 0;
     cursor: pointer;
 }

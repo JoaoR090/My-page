@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'MyFontP';
+    src: url('../fonts/PressStart2P-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'MyFontPv';
+    src: url('../fonts/PixelifySans-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.div {
+    background-color: #201DB0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid #000;
+}
+
+.h2 {
+    font-family: 'MyFontPv', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.div_skills {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    margin: 20px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.p {
+    font-family: 'MyFontP', Arial, Helvetica, sans-serif;
+}
